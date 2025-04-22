@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devanshi Arora - Resume</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        
+        /* Header */
+        header {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #4a6fa5;
+        }
+        
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 5px;
+            color: #2c3e50;
+            text-transform: uppercase;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        
+        .contact-info a {
+            color: #4a6fa5;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        .contact-info i {
+            margin-right: 5px;
+        }
+        
+        /* Sections */
+        section {
+            margin-bottom: 30px;
+        }
+        
+        section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #4a6fa5;
+            border-bottom: 2px solid #4a6fa5;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+        
+        /* Education and Experience */
+        .item {
+            margin-bottom: 25px;
+        }
+        
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        
+        .item-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        
+        .item-date {
+            color: #7f8c8d;
+        }
+        
+        .item-subtitle {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+        
+        .item-location {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 10px;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        /* Skills */
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .skill-category {
+            margin-bottom: 20px;
+        }
+        
+        .skill-category h3 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        
+        .skill-item {
+            margin-bottom: 8px;
+        }
+        
+        .skill-name {
+            font-weight: bold;
+        }
+        
+        .skill-desc {
+            color: #555;
+            font-size: 0.9rem;
+        }
+        
+        /* Profile section */
+        .profile {
+            background-color: #f0f7ff;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .item-header {
+                flex-direction: column;
+            }
+            
+            .item-date {
+                margin-top: 5px;
+            }
+            
+            .skills-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Devanshi Arora</h1>
+            <div class="contact-info">
+                <a href="tel:+917357511502">
+                    <i class="fas fa-phone"></i> +91-7357511502
+                </a>
+                <a href="mailto:devanshiarora1510@gmail.com">
+                    <i class="fas fa-envelope"></i> devanshiarora1510@gmail.com
+                </a>
+                <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </header>
+        
+        <section id="profile" class="profile">
+            <h2>About Me</h2>
+            <p>I'm currently pursuing a BBA in Digital Business and Entrepreneurship from IIM Bangalore, where I'm exploring how digital tools can drive real-world impact. I'm passionate about helping local, family-run businesses grow using creative, resource-friendly strategies.</p>
+            <p>Through this journey, I've gained hands-on experience in social media management, digital outreach, and entrepreneurship. I enjoy connecting with people, solving problems creatively, and learning by doing.</p>
+        </section>
+        
+        <section id="education">
+            <h2>Education</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">IIM BBA in Digital Business and Entrepreneurship</span>
+                    <span class="item-date">2024 – Present</span>
+                </div>
+                <div class="item-subtitle">IIM Bangalore</div>
+            </div>
+            
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Class 12th – CBSE</span>
+                    <span class="item-date">2022–2024</span>
+                </div>
+                <div class="item-subtitle">Commerce – 86.2%</div>
+                <div class="item-location">Indus Public School, Jind</div>
+            </div>
+            
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Class 10th – ICSE</span>
+                    <span class="item-date">2021 – 2022</span>
+                </div>
+                <div class="item-subtitle">Generic – 92%</div>
+                <div class="item-location">Christ Raja Convent School</div>
+            </div>
+        </section>
+        
+        <section id="internship">
+            <h2>Internship</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Digital Panda Marketing</span>
+                </div>
+                <div class="item-subtitle">Marketing Intern</div>
+                <ul>
+                    <li>Learning about different online advertising platforms.</li>
+                    <li>Helping businesses generate quality leads, create online content and manage social media posts.</li>
+                    <li>Learning with the team about customer journey from awareness to conversion.</li>
+                    <li>Learning how to build funnels that convert and bring quality leads.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="awards">
+            <h2>Awards & Extracurriculars</h2>
+            <ul>
+                <li>Member of Student Council</li>
+                <li>1st Prize in Football</li>
+                <li>Anchoring in Annual Function</li>
+                <li>ICSE Biology Topper – School Level</li>
+                <li>Managed Farewell Event in Class 11th</li>
+            </ul>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">Basic Accounting</div>
+                        <div class="skill-desc">Understanding of fundamental accounting principles.</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Microsoft Office</div>
+                        <div class="skill-desc">Proficient in Word, Excel, and PowerPoint.</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Financial Literacy</div>
+                        <div class="skill-desc">Knowledge of budgeting and basic financial concepts.</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Digital Marketing</div>
+                        <div class="skill-desc">Familiar with social media and online marketing.</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">Communication</div>
+                        <div class="skill-desc">Strong verbal and written skills.</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Analytical Thinking</div>
+                        <div class="skill-desc">Ability to assess and solve problems.</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Teamwork</div>
+                        <div class="skill-desc">Effective collaboration with groups.</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Time Management</div>
+                        <div class="skill-desc">Prioritizing tasks efficiently.</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Leadership</div>
+                        <div class="skill-desc">Initiative in projects and activities.</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Adaptability</div>
+                        <div class="skill-desc">Quick to learn and adapt to new challenges.</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Interpersonal Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">Collaboration</div>
+                        <div class="skill-desc">Contributing to team success.</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Problem-Solving</div>
+                        <div class="skill-desc">Creative and effective solutions.</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Organizational Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">Event Management</div>
+                        <div class="skill-desc">Organizing school events.</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Project Management</div>
+                        <div class="skill-desc">Planning and executing projects on time.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Hindi</li>
+                <li>Punjabi</li>
+            </ul>
+        </section>
+        
+        <section id="references">
+            <h2>References</h2>
+            <div class="reference">
+                <div class="reference-name">Pankaj Arora</div>
+                <div class="reference-title">Founder – Digital Panda Marketing</div>
+                <div class="contact-info">
+                    <a href="tel:+919350194256">
+                        <i class="fas fa-phone"></i> +91-9350194256
+                    </a>
+                    <a href="mailto:pankajarora@digitalpanda-marketing.in">
+                        <i class="fas fa-envelope"></i> pankajarora@digitalpanda-marketing.in
+                    </a>
+                </div>
+            </div>
+            
+            <div class="reference">
+                <div class="reference-name">Janak Mendiratta</div>
+                <div class="reference-title">Teacher – Indus Public School</div>
+                <div class="contact-info">
+                    <a href="tel:+919068680868">
+                        <i class="fas fa-phone"></i> +91-9068680868
+                    </a>
+                    <a href="mailto:jandkmendiratta@gmail.com">
+                        <i class="fas fa-envelope"></i> jandkmendiratta@gmail.com
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
